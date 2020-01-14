@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Janvi Fitness</title>
+    <style>
+        /* resetting */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/b.jpg');
+            color: white;
+            font-family: 'Baloo Bhai',cursive;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .mid {
+            display: block;
+            width: 36%;
+            margin: 12px auto;
+            /* border: 2px solid rgb(36, 167, 53); */
+            top: 20px;
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid rgb(40, 23, 87); */
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+
+        .navbar {
+            margin: auto;
+            padding: 0%;
+            display: inline-block;
+            background-color: black;
+        }
+
+        .navbar li {
+            display: inline-block;
+            /* font-size:14px; */
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover, .navbar li a:active
+        {
+            text-decoration: underline;
+            color:grey;
+        }
+        .left img
+        {
+            height:69px;
+            width:127px;
+            filter:invert(100%);
+        }
+        .left div{
+            text-align:center;
+            line-height: 19px;
+            font-size: 26px;
+        }
+        .btn
+        { 
+            margin:0px 9px;
+            color:white;
+            background-color: black;
+            padding:4px 14px;
+            border:2px solid grey;
+            border-radius:10px;
+            font-size:15px;
+            cursor:pointer;
+            font-family: 'Baloo Bhai',cursive;
+        }
+        .btn:hover
+        {
+            background-color: rgb(19,18,18);
+        }
+        .container
+        {
+            border:2px solid white;
+            margin: 121px 62px;
+            padding: 20px 66px;
+            width:33%;
+            border-radius: 6px;
+        }
+        .form-group input
+        {   font-family: 'Baloo Bhai',cursive;
+            text-align: center;
+            display: block;
+            width:508px;
+            padding: 1px;
+            margin:11px auto;
+            border:2px solid black;
+            font-size:25px ;
+            border-radius:8px ;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button
+        {
+            display:block;
+            width: 104%;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt=" ">
+            <div id="logo">JANVI FITNESS</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/home" class="active">HOME </a></li>
+                <li><a href="/about">ABOUT </a></li>
+                <li><a href="/fitcal">FITNESS CALCULATOR </a></li>
+                <li><a href="/contact">CONTACT US </a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button  class="btn">CALL US</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now.</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button> 
+        </form>
+        </div>
+</body>
+
+</html>

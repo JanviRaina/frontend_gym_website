@@ -1,0 +1,53 @@
+Pixabay is a good website to be used
+Make sure you make other folders as well css js and img folders
+We have 2 images b.jpg that will be background and logo.jpg for logo
+Its good to chek templates and designs of other fitness websites beforehand to hv an idea ..just like we saw how navbar is kept fixed in them..we can use the inspect
+We are doing display:inline-block so that we can assign width later
+position:absolute;
+            right:34px;
+            top:0px;                         this all will help to bring it in right
+
+for setting mid one we can:
+display:block;
+            width:33%;
+            margin:12px auto;
+
+            and then set each one's top margin =20px;
+To bring all elements of navbar in one line use inline-block:
+.navbar li{
+            display: inline-block;
+        }
+For making elements color white:                we need to do for anchor tag
+.navbar li a
+        {
+            color:white;
+        }
+for removing underlines:
+text-decoration:none;      text-decoration:underline                  for underlining
+active to make it diff
+filter:invert(100%)               to invert colors
+text-align:center;                useful
+cursor:pointer;                   to bring hand pointer
+  .btn:hover                      if we need to change the color of hover
+
+  in body
+  body{
+      use font-family:'Baloo Bhai';
+  }
+
+
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<body>
+
+
+
+
+we can go to inspect and see the container that we hv created...we can change its margins and padding accordingly
+to bring submit in center:
+.container button
+        {
+            display:block;
+            width:23%;
+            margin:auto;
+        }
